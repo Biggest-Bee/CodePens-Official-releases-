@@ -1,0 +1,21 @@
+1. Code using bloxd.io style javascript
+2. Click "run" inside the code editor to run that single editor
+3. Click "Run All Code" to run all code
+4. Click "Select Code", then select the code editor, then click "Run Selected Code"
+5. Click "🎒 Inventory" button to view inventory
+6. inside Inventory, tap "Log Full Inventory" to log full inventory in "📋 Console Log"(<- mentioned in step 11)
+7. inside Inventory, tap "Clear All" to clear full inventory
+8. Click "🔄 Simulate Callback" button(outside of "🎒 Inventory"), then select 1 or more callbacks
+9. Click "▶️Simulate" to simulate the callback(s)
+10. Click "🌕🗿 Moonstone Chest" button(outside of "🔄 Simulate Callback") to view Moonstone Chest
+11. Click "📋 Console Log" button(outside of "🌕🗿 Moonstone Chest") to view all results of code/commands/view storage container content buttons(
+e.g. Inventory)
+12. To exit any Pop-up windows(e.g. Inventory Pop-up window), click the x button on the top right corner of the window
+13. Click the "+ Add Code Block" to add another code block(WHICH DO NOT HAVE CALLBACKS OR ANY GLOBAL VARIABLES INSIDE CALLBACK, IT ONLY HAS THE 
+GLOBAL VARIABLE myId. Unless you're using a Code Loader(can be found in discord server of Bloxd.io))
+14. Click "🗑️ Delete All Code Blocks" button to delete all code block editors
+15. Click "🗑️ Delete All Code" button to delete all code
+16. Click "+ Add Block" in to "Block Placer" window to add blocks, select the block, then click place
+17. Boards cannot be edited right now
+18. Click "Open" button when you place a chest down to open it
+19. (commands)
