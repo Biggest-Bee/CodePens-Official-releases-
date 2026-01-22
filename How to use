@@ -18,4 +18,44 @@ GLOBAL VARIABLE myId. Unless you're using a Code Loader(can be found in discord 
 16. Click "+ Add Block" in to "Block Placer" window to add blocks, select the block, then click place
 17. Boards cannot be edited right now
 18. Click "Open" button when you place a chest down to open it
-19. (commands)
+19. Commands:
+    /equipArmour (slot)
+	∙	Equips armor from inventory slot to armor slot
+	∙	Example: /equipArmour 5 - Equips armor from slot 5 to appropriate armor slot (46-50)
+	∙	Only works with helmet, chestplate, gauntlets, leggings, boots
+/unequipArmour (armor slot)
+	∙	Unequips armor from armor slot back to inventory
+	∙	Example: /unequipArmour 46 - Unequips helmet from slot 46
+	∙	Armor slots: 46=Helmet, 47=Chestplate, 48=Gauntlets, 49=Leggings, 50=Boots
+/getInventory
+	∙	Logs all 51 inventory slots (0-50) to console
+	∙	Shows slot number, amount, and item name
+/getMoonstoneChest
+	∙	Logs all 36 moonstone chest slots (0-35) to console
+	∙	Shows slot number, amount, and item name
+Item Movement Commands:
+/move '(amount)' '(item)' (direction)
+Directions:
+	∙	InvenToChest - Move from inventory to regular chest
+	∙	ChestToInven - Move from regular chest to inventory
+	∙	MoonstoneChest - Move from inventory to moonstone chest
+	∙	MoonstoneChestToInven - Move from moonstone chest to inventory
+Examples:
+	∙	/move '10' 'Diamond' InvenToChest
+	∙	/move '5' 'Gold Bar' ChestToInven
+	∙	/move '20' 'Iron Ore' MoonstoneChest
+Item Deletion Commands:
+/delete '(amount)' '(item)' (location)
+Locations:
+	∙	Inven - Delete from inventory
+	∙	Chest - Delete from regular chest
+	∙	MoonstoneChest - Delete from moonstone chest
+Examples:
+	∙	/delete '10' 'Dirt' Inven
+	∙	/delete '5' 'Stone' Chest
+/drop '(amount)' '(item)' (location)
+	∙	Same as /delete but creates a dropped item entity
+	∙	Same locations: Inven, Chest, MoonstoneChest
+Examples:
+	∙	/drop '10' 'Wood Sword' Inven
+	∙	/drop '3' 'Apple' MoonstoneChest
