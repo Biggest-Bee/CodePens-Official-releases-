@@ -13,12 +13,13 @@ e.g. Inventory)
 12. To exit any Pop-up windows(e.g. Inventory Pop-up window), click the x button on the top right corner of the window
 13. Click the "+ Add Code Block" to add another code block(WHICH DO NOT HAVE CALLBACKS OR ANY GLOBAL VARIABLES INSIDE CALLBACK, IT ONLY HAS THE 
 GLOBAL VARIABLE myId. Unless you're using a Code Loader(can be found in discord server of Bloxd.io))
-14. Click "🗑️ Delete All Code Blocks" button to delete all code block editors
-15. Click "🗑️ Delete All Code" button to delete all code
+14. Click "🗑️ Delete All Code Blocks" button to delete all code block editors(only works on computer)
+15. Click "🗑️ Delete All Code" button to delete all code(only works on computer)
 16. Click "+ Add Block" in to "Block Placer" window to add blocks, select the block, then click place
 17. Boards cannot be edited right now
 18. Click "Open" button when you place a chest down to open it
-19. Commands:
+19. Click "🗑️ Clear Code" to clear code in the specific editor
+20. Commands:
     /equipArmour (slot)
 	∙	Equips armor from inventory slot to armor slot
 	∙	Example: /equipArmour 5 - Equips armor from slot 5 to appropriate armor slot (46-50)
