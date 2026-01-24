@@ -18,7 +18,7 @@ GLOBAL VARIABLE myId. Unless you're using a Code Loader(can be found in discord 
 16. Click "+ Add Block" in to "Block Placer" window to add blocks, select the block, then click place
 17. Boards cannot be edited right now
 18. Click "Open" button when you place a chest down to open it
-19. Click "🗑️ Clear Code" to clear code in the specific editor
+19. Click "🗑️ Clear Code" to clear code in the specific editor(only on computer)
 20. Commands:
     /equipArmour (slot)
 	∙	Equips armor from inventory slot to armor slot
